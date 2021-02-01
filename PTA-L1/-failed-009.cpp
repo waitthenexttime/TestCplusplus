@@ -5,6 +5,7 @@
 #include <cmath>
 using namespace std;
 
+
 void split(long int &A, long int &B)
 {
     long int g = __gcd(A, B); //求最大公因数
