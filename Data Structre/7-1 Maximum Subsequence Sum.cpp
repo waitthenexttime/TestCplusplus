@@ -109,7 +109,6 @@ int main()
     cout << Maximum_Subsequence_Sum1(a, N) << endl;
     cout << Maximum_Subsequence_Sum2(a, N) << endl;
     cout << Maximum_Subsequence_Sum3(a, N) << endl;
-    cout << endl;
     system("pause");
     return 0;
 }
