@@ -2,5 +2,6 @@
     "files.associations": {
         "*.cpp": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "python.pythonPath": "D:\\anaconda\\python.exe"
 }
