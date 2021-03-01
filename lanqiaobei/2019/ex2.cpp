@@ -1,6 +1,6 @@
 /* 
+初始想法，过于复杂
 
-*/
 
 #include <iostream>
 #include <string>
@@ -33,6 +33,27 @@ int main()
     cout << char('A' + n2 - 1);
     cout << char('A' + n1 - 1);
 
+    cout << endl;
+    system("pause");
+    return 0;
+}
+*/
+
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <vector>
+using namespace std;
+
+int main()
+{
+    int N;
+    cin >> N;
+    do
+    {
+        cout << char(64 + N % 26);
+        N = N / 26;
+    } while (N != 0);
     cout << endl;
     system("pause");
     return 0;
