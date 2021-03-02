@@ -40,7 +40,7 @@ int main()
 */
 
 #include <iostream>
-#include <string>
+#include <cstring>
 #include <algorithm>
 #include <vector>
 using namespace std;
