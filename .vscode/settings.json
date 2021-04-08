@@ -2,7 +2,11 @@
     "files.associations": {
         "*.cpp": "cpp",
         "iostream": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "*.tcc": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "streambuf": "cpp"
     },
     "python.pythonPath": "D:\\anaconda\\python.exe"
 }
