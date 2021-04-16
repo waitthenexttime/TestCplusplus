@@ -6,7 +6,10 @@
         "*.tcc": "cpp",
         "fstream": "cpp",
         "istream": "cpp",
-        "streambuf": "cpp"
+        "streambuf": "cpp",
+        "bitset": "cpp",
+        "forward_list": "cpp",
+        "functional": "cpp"
     },
     "python.pythonPath": "D:\\anaconda\\python.exe"
 }
