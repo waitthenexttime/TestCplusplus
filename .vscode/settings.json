@@ -11,5 +11,6 @@
         "forward_list": "cpp",
         "functional": "cpp"
     },
-    "python.pythonPath": "D:\\anaconda\\python.exe"
+    "python.pythonPath": "D:\\anaconda\\python.exe",
+    "git.ignoreLimitWarning": true
 }
