@@ -19,7 +19,6 @@ struct TNode
     BinTree right;
 };
 
-
 BinTree Insert(BinTree BST, ElementType x)
 {
     if (!BST)
@@ -43,12 +42,11 @@ BinTree Insert(BinTree BST, ElementType x)
     return BST;
 }
 
-
 BinTree Delete(BinTree BST, ElementType x)
 {
     if (!BST)
     {
-        cout << "û�ҵ�";
+        cout << "The element to be deleted was not found" << endl;
     }
     else if (x < BST->Data)
     {
@@ -66,7 +64,6 @@ BinTree Delete(BinTree BST, ElementType x)
     }
     return BST;
 }
-
 
 void PreOrderTraversal(BinTree BST)
 {
@@ -88,6 +85,7 @@ int main()
         BST = Insert(BST, 'A' + i);
     }
     PreOrderTraversal(BST);
+    cout << endl;
     BST = Delete(BST, 'E');
     PreOrderTraversal(BST);
     cout << endl;
