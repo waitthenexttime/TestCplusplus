@@ -110,5 +110,5 @@ void LevelOrderTraversal(MaxHeap H)
     {
         printf("%d ", H->Elements[i]);
     }
-    cout<<endl;
+    cout << endl;
 }
