@@ -12,5 +12,6 @@
         "functional": "cpp"
     },
     "python.pythonPath": "D:\\anaconda\\python.exe",
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "C_Cpp.errorSquiggles": "Disabled"
 }
