@@ -23,7 +23,7 @@ struct Graph
 void BuildGraph(Graph *G)
 {
     int start, end;
-    cout << "Please enter the number of vertices and edges"<<endl;
+    cout << "Please enter the number of vertices and edges" << endl;
     cin >> G->vertexnum >> G->edgenum;
     // 图的权重初始化
     for (int i = 0; i < G->vertexnum; i++)
@@ -36,17 +36,17 @@ void BuildGraph(Graph *G)
     // 图的顶点数据
     for (int i = 0; i < G->vertexnum; i++)
     {
-        cout << "Please enter the data of vertex" << i + 1<<endl;
+        cout << "Please enter the data of vertex" << i + 1 << endl;
         cin >> G->vertexList[i];
     }
     // 输入权重信息
     for (int i = 0; i < G->edgenum; i++)
     {
-        cout << "Please enter the Start number, end number, weight"<<endl;
+        cout << "Please enter the Start number, end number, weight" << endl;
         cin >> start >> end;
-        cin >> G->edgeList[start-1][end-1];
+        cin >> G->edgeList[start - 1][end - 1];
     }
-    cout<<endl;
+    cout << endl;
 }
 
 void Print_Adjacency_Matrix(Graph G)
@@ -55,11 +55,10 @@ void Print_Adjacency_Matrix(Graph G)
     {
         for (int j = 0; j < G.vertexnum; j++)
         {
-            cout<<G.edgeList[i][j]<<'\t';
+            cout << G.edgeList[i][j] << '\t';
         }
-        cout<<endl;
+        cout << endl;
     }
-    
 }
 
 int main()
